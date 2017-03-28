@@ -1,0 +1,7 @@
+/cache	ext4	/dev/block/bootdevice/by-name/cache
+/system	ext4	/dev/block/bootdevice/by-name/system
+/data	ext4	/dev/block/bootdevice/by-name/userdata
+/cust	ext4	/dev/block/bootdevice/by-name/cust
+/boot	emmc	/dev/block/bootdevice/by-name/boot
+/recovery	emmc	/dev/block/bootdevice/by-name/recovery
+/external_sd	vfat	/dev/block/mmcblk1p1

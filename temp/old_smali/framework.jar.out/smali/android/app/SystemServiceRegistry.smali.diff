@@ -1,0 +1,13 @@
+*** ./smali/android/app/SystemServiceRegistry.smali	2017-03-23 13:58:37.019424477 -0600
+--- /home/hb72k/patchrom/hwY635/temp/new_smali/framework.jar.out/./smali/android/app/SystemServiceRegistry.smali	2017-03-23 13:47:45.119411352 -0600
+***************
+*** 750,755 ****
+--- 750,757 ----
+  
+      invoke-static {v0, v1, v2}, Landroid/app/SystemServiceRegistry;->registerService(Ljava/lang/String;Ljava/lang/Class;Landroid/app/SystemServiceRegistry$ServiceFetcher;)V
+  
++     invoke-static {}, Landroid/app/ContextImplInjector;->registerMiuiServices()V
++ 
+      return-void
+  .end method
+  
